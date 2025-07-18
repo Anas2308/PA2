@@ -1,0 +1,85 @@
+Infos von Tellis:
+
+- Ali kann bewerten weil er Thirdlvl Know-How hat
+- Wenn wir es selber machen können, dann brauchen wir in der Regel eine Person die aus dem Daily Doing rausgenommen wird
+-> Teamleiter entscheidet was mit den Massentickets gemacht wird ->Kriterien?
+- Wer ist für Fragen von den Bearbeitendem Teams verantwortlich
+-
+
+
+Infos von Marius: (Experten Interview wegen der Fragen)
+- Welche Systeme (Obwohl es drin steht)
+- Was für ein Aufwand pro System
+- Welche Kosten
+- Rückfragen -> Systeme nicht mehr betroffen weil (mehrere Gründe)
+-> Kunde sieht die Note auch und kümmert sich selbst oder über uns schon früher darum. Kriegt dann zwei Wochen später ne Info von uns, obwohl schon längs erledigt.
+- Der Grund das wir auf Infos warten müssen liegt daran, dass wir nicht mit gewissheit sagen können ob wir loslegen können.  
+-> Zeit bis wir Anweisung bekommen ist sehr lang
+- Welches Team welches Snote am Ende kümmert, weiß man anhand der Struktur der Abteilungen. 
+
+
+Infos von Emad: (Ablauf)
+- Wir bekommen keine Infos, sehen aber die Tickets dann in der Queue oder kriegen dann Infos im Daily
+- Sagt, dass die Anweisung die wir bekommen gut sind und er mit diesen.
+-> Er hat keine Infos die ihm fehlen um nicht weiter arbeiten zu können
+- Wenn mehrere Notes in der Queue sind, dann findet er es nicht unübersichtlich, weil man ja lesen kann was wo passiert weil SAP die Notes mit Anweisung bereitstellt
+- Es gibt keine gemeinsame Quelle wo alle Notes sammeln
+- Infos die er braucht um starten zu können -> Was ist zu tun und wieviel Zeit habe ich bis zum Abschluss
+--> Zeit zum bearbeiten ist schon knapp da man ja noch mit seiner Täglichen arbeit beschäftigt ist.
+- Haupttätigkeit: Kundenkommunikation (pain in the ass, weil jeder Kunde denkt er ist der einzige Kunde überhaupt)
+--> SSV reagieren nicht immer schnell.
+-  Wenn die Anweisung erfüllt ist, dann ist man fertig mit dem Ticket. 
+-> Manchmal bekommt man kein Feedback an dem man sich orientieren kann
+- Aufgaben die ich selbst duchgeführt hab: 
+-> SNote implementiert
+-> Sheets editiert
+- Was mir die Arbeit erleichtern würde, wäre ein Kanal wo ich alle Infos in einem Punkt finden würde
+
+
+
+Infos von Micha: Es ist freitag 15 Uhr - Ich hab Schicht und keine Zeit - Ich kann nicht nach Infos suchen um das Ticket zu bearbeiten
+- Was macht Thomas Baus
+- Wem gibt er welche Information
+- 
+
+
+
+Infos von Ali 
+- Macht es Sinn solche Themen im DSR zu besprechen statt im Weekly (Zeitsparen)
+- Criticalität entscheidet wann wie schnell 
+-> Sobald ein Note veröffentlicht gibts Email Ping Pong
+- Massentickets -> Handlungsanweisung und -> Informationsanweisung
+- Kernelpatches kommen am meisten
+- SAP Veröffentlich manchmal keine Lösung
+- Bekomme alle Infos vom SOC team durch Email (aktuelle Vereinbarung)
+-> Wenn ich die Email bekomme, dann bin ich mit in der Entscheidung wie zu verfahren ist (Individualentscheidung für Jeden Fall)
+-  Herausforderung: Wie bekommt man das für alle Kunden unter einem Hut -> Kunden 
+- Gruppe ist dafür da nur um ITNA zu informieren.
+- Themen für die PA2 auf SAP beschränken.
+- Jessi und Steffen Lautenschlager eventuell als Experteninterview 
+
+
+
+
+Bekannte Probleme:
+- Wir bekommen keine Infos und wissen vom Auftrag erst wenn er schon in der queque ist
+- Standart -> SAP-Note -> Wir bearbeiten nur BC
+- Mehrere Massentickets können gleichzeitig unterwegs sein -> Das macht das Arbeiten noch schlimmer
+- Keine Quelle um Infos zu bekommen -> kann auf Email / SAP-Seite / Chat / OneNote
+- Keine infos über das Doing -> Was muss gemacht werden muss man immer erst Fragen
+-> Wo kommt es hin?
+- Es ist schon vorgekommen, dass selbst Ali nicht informiert wurde, dass bald Massentickets kommen. --> Dann ist das Team machtlos
+- Bearbeiter im 2nd lvl sind nicht in der infomail dabei und müssen separat informiert werden.
+
+
+Infos von Thomas:
+- Was ist diese Excel mit dem Hinweis und den Systemen? (VULN Mgt operative)
+
+Tipps zur PA2:
+- Theorieschreiben und auf SAP begrenzen um den Rahmen nicht zu sprengen.
+
+SNOTE_WOLRLD (OneWorld)
+1. Prozessbeschreibung
+2. Wer macht was
+3. Vorlage für Infos zur verfügung stellen 
+4. Kapitel mit Seiten für einzelne SNotes

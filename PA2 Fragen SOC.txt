@@ -1,0 +1,110 @@
+Hauptfragen (nach Ablauf):
+1. Eingang & Erkennung:
+
+Wie erfahrt ihr von neuen SAP Security Notes? -> SAP Patchday Webseite https://support.sap.com/en/my-support/knowledge-base/security-notes-news/july-2025.html
+Welche Tools nutzt ihr für die Überwachung? Es wird im Monat überprüft was ansteht lt SAP -> Hotnews durch benachrichtugungen
+
+2. Analyse-Phase:
+
+Wie lange dauert eure Analyse pro Note? -> Es gibt Meetings wo die Notes besprochen werden -> Das Doing ist meist unmittelbar klar 
+Was entscheidet über Kritikalität? -> SAP CVSS werden beachtet siehe unten
+Welche Systeme müsst ihr prüfen? -> FRUN (Eigenes Tool) was Systeme prüft und nach betroffenheit prüft (Arbeitet nicht gut weil nur aktuell misst und nicht was vorher war)
+Woher bekommt ihr Systeminformationen? FRUN
+Was ist das Aufwändigste bei der Bewertung? Keine eigene Klassifizierung -> Dadurch wird jedes Note einzel geprüft
+
+3. Arbeitsanweisungen:
+
+Seid ihr bei der Erstellung der Arbeitsanweisungen dabei? -> JA, in der Regel geht das auch schnell weil die Snotes schon sagen was zu tun ist
+Oder macht ihr nur die Analyse und andere erstellen die Anweisungen?  nein
+Wer schreibt die konkreten Handlungsempfehlungen? SOC_Team
+Bis zu welchem Punkt ist euer Job, ab wann übernehmen andere? Bis hin zur Ticketerstellung -> Anschließend werden dann die ausgewählten Teams dafür zuständig
+
+4. Weiterleitung & Kommunikation:
+
+Wann informiert ihr die Führungskräfte? mittlerweile direkt per Email, früher erst durch Ticketerstellung
+An wen geht eure Analyse weiter? hab ich nciht fragen können
+Welche Infos stellt ihr bereit? hab ich nicht fragen können
+
+5. Probleme & Verbesserungen:
+
+Was sind eure größten Herausforderungen? -> FRUN, schlechte interne Prozesse (Benachrichtigungssystem, Verantwortlichkeiten..)
+Wo seht ihr Verbesserungspotential? Das Doing nicht auf alle Kunden trifft, manche sind mit Projekten beschäftigt und haben sorge, dass das Patchen das zunichte machen könnte
+Was würde euren Prozess beschleunigen? habe ich vergessen
+
+Optionale Zusatzfragen:
+Timing & Parallel-Prozesse:
+
+Läuft die Systemanalyse parallel zur Führungskräfte-Beratung oder erst danach? parallel
+Wie koordiniert ihr das zeitlich? warten bis Meeting und dann werden alle Notes besprochen
+Wann genau geht die Liste an ITNA - sofort nach Systemanalyse. 
+
+Eskalation & Problemfälle:
+
+Wie lange kann die E-Mail-Kommunikation mit Führungskräften dauern? hab ich nciht fragen können
+Gibt es Eskalationswege wenn keine Einigung kommt? noch nie passiert
+Wer bricht ab, wenn keine Lösung gefunden wird? noch nie passiert
+
+Feedback & Koordination:
+
+Bekommt ihr mit, dass das 2nd Level auf Arbeitsanweisungen wartet? Nein
+Wisst ihr, dass Kunden schon Fragen stellen während ihr noch beratet? hab ich nciht fragen können
+Gibt es Feedback vom 2nd Level an euch zurück? Nein, obwohl bewusstsein da ist, dass das sinnvoll wäre
+
+Tools & Datenqualität:
+
+Welche Tools nutzt ihr für die Systemanalyse? SUNIS / FRUN / 
+Wie aktuell sind eure Systemlisten? es wird immer live geprüft (wobei FRUN nicht 100% sinnvoll aufgebaut ist)
+
+
+Alexander Weitzel : SAP_BASIS
+5 - 6 Teams 
+FRUN beachtet nur das aktuelle und prüft nicht was vorher war
+-> einzige Lösung: Patch auf aktuellen Stand -> beinhalten alle vergangenen Hinweise.
+-> SAP Hinweise sind nur für SAP-Programme gedacht
+-> Eigens entwickelte Programme fallen nicht darunter
+-> A41 will Service anbieten um solche Programme auch zu prüfen ob sie den Sicherheitsstandards entsprechen
+-> 
+
+Jeden Monat gibts ein Meeting (Patchday) wo man die Monatlichen Pachtes in einem Meeting prüft
+3-8 Leute
+
+in SAP - Support gibt es Sortierte Notes nach CVSS. 
+- 10 = JA SOFORT
+- SAP Basis (Fachteam) wo sich drum kümmern (Leute werden gesucht die Zeit und Know-How haben)
+
+- 8 - 9,9 = Spezifisch 
+- Individuelle Prüfung jeder Note um zu entscheiden ob wichtig oder nicht
+Patchen is aufwendiger als einspielen von Hinweisen
+-> Hat auch Einflüsse Projekte von Kunden
+Daher
+3 Arten des Doing: Risikoübertragung auf die betroffene Komponente
+- Emergency Change -> Massentätigkeit um so viel wie möglich zu patchen
+- Wir gehen auf Kunden zu und geben ein Datum, dass gemacht werden muss 
+- Wir informieren Kunden
+
+Empfehlung von SAP:
+Bis 8 CVSS = 3 Monate
+Ab 8 CVSS = 3 Wochen
+Ab 9 CVSS = am besten Tagen
+
+Optimierung innerhalb von SOC
+
+-> Mailverteiler für Informations
+
+
+Prozess wenn Note eingespielt wird
+-> Ticket für die bearbeitung erstellen um Zentral zu arbeiten
+->> aus diesem Ticket wird ein Massenticket
+->>> Daten für die Massentickets aus FRUN / SUNIS /....
+->>>> Im Patchdaymeeting wird entschieden was wann passiert 
+->>>>> Anweisungen sind im Hinweis selbst dokumentiert.
+->>>>>> Kein Review findet statt
+->>>>>>> Nicht jedes Ticket ist dringend, daher kann es etwas dauern bis diese bearbeitet werden
+->>>>>>>> BO-Systema machen Probleme -> Viele Schwachstellen unter Windows die früher unbekannt waren die jetzt rauskommen -> Wir haben keinen Spezialisten der das beantwroten kann -> Teilweise gibts Probleme wo selbst die SAP keine Lösung hat 
+->>>>>>>>> 90% doing sind: Hinweis einbauen oder Patchen
+->>>>>>>>>> 
+
+
+Verbesserungsideen die in Arbeit sind: 
+-> Emailfluss wo alle wichtigen Personen informiert werden
+-> 
